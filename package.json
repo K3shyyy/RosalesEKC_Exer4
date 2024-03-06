@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  }
+}
