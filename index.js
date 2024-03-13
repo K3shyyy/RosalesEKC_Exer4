@@ -24,7 +24,7 @@ const addAccount = (AccountArray) => {
             const UID = generateUniqueID(AccountArray[0],AccountArray[1])
 
             //Appending of info to file
-            appendFileSync('user.txt', AccountArray[0]+","+AccountArray[1]+","+AccountArray[2]+","+UID+"\n");
+            appendFileSync('user.txt', AccountArray[0]+","+AccountArray[1]+","+AccountArray[2]+","+AccountArray[3]+","+UID+"\n");
 
             //NOTIFICATION OF SUCCESSFUL APPENDING
             console.log('The "data to append" was appended to file!');
